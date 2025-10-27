@@ -7,12 +7,14 @@ body {
 
 .iphone {
   position: relative;
-  width: 430px;
-  height: 932px;
+  width: 100%;
+  max-width: 430px;  /* limite para não estourar no desktop */
+  height: auto;       /* deixa a altura proporcional */
   margin: 0 auto;
   background: #fff;
   overflow: hidden;
 }
+
 
 /* ---------------- BACKGROUNDS ---------------- */
 .rectangle1 {
